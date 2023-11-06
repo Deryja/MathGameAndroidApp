@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bakgrunnsbildeinstillinger">
+
+    <Button
+        android:id="@+id/norsk"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/norsk"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/tysk"
+        android:layout_marginTop="24dp" />
+
+    <Button
+        android:id="@+id/tysk"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/tysk"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/norsk"
+        app:layout_constraintBottom_toTopOf="@+id/knapp5" />
+
+    <Button
+        android:id="@+id/knapp5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/knapp5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tysk"
+        app:layout_constraintBottom_toTopOf="@+id/knapp15" />
+
+    <Button
+        android:id="@+id/knapp10"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/knapp10"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/knapp5"
+        app:layout_constraintBottom_toTopOf="@+id/knapp15" />
+
+    <Button
+        android:id="@+id/knapp15"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/knapp15"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/knapp10"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

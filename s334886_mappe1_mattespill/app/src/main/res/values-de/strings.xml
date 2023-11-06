@@ -1,0 +1,112 @@
+<resources>
+
+    <string name="app_name">MathematischesSpiel</string>
+
+
+    <string name="preferanser">Einstellungen</string>
+
+    <string name="spørsmål">Drücken Sie Start, um zu beginnen</string>
+
+    <string name="startSpill">Anfangen</string>
+
+    <string name="enter">Eintreten</string>
+
+    <string name="tall0">0</string>
+    <string name="tall1">1</string>
+    <string name="tall2">2</string>
+    <string name="tall3">3</string>
+    <string name="tall4">4</string>
+    <string name="tall5">5</string>
+    <string name="tall6">6</string>
+    <string name="tall7">7</string>
+    <string name="tall8">8</string>
+    <string name="tall9">9</string>
+    <string name="svaret">Geben Sie Ihre Antwort mit den Schaltflächen ein</string>
+
+    <string name="StartSelveSpillet">Anfangen</string>
+
+    <string name="delete">Löschen</string>
+
+    <string name="omspill">Über das Spiel</string>
+
+
+
+    <string-array name="Tilbakemeldinger">
+
+        <item>5 + 5 wird gleich 10, das sieht man, wenn man mit den Fingern zählt :)</item>
+        <item>10 + 10 wird gleich 20</item>
+        <item>50 + 4 wird gleich 54</item>
+        <item>Aus 33 + 2 wird 35</item>
+        <item>Wenn 22 mit 1 addiert wird, lautet die Antwort 23</item>
+
+
+        <item>Aus 7 + 7 wird die 14 (Doppel von 7)</item>
+        <item>12 + 10 wird gleich 22</item>
+        <item>1 + 4 = 5, das sieht man, wenn man mit den Fingern zählt</item>
+        <item>44 + 2 wird gleich 46</item>
+        <item>99 + 1 wird gleich 100, indem man 99 mal 1 hochzählt</item>
+
+
+        <item>Aus 22 + 7 wird 29</item>
+        <item>1 + 77 wird gleich 78</item>
+        <item>Aus 1 + 40 wird 41</item>
+        <item>Aus 35 + 9 wird 44</item>
+        <item>49 + 1 wird gleich 50</item>
+
+    </string-array>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<string-array name="Tilbakemeldinger2">
+
+<item>Gut Gemacht! Aus 5 + 5 werden 10 :)</item>
+<item>Richtige Antwort! 10 + 10 wird gleich 20 </item>
+<item>50 + 4 ergibt 54, wann bist du bald da? :)</item>
+<item>Richtig! Aus 33+2 wird 35</item>
+<item>Aus 22+1 wird 23, sehr gut!</item>
+
+
+<item>14 ist die richtige Antwort!</item>
+<item>22 ist absolut richtig :)</item>
+<item>5 ist genau richtig!</item>
+<item>46 ist die richtige Antwort, Sie haben es fast geschafft!</item>
+<item>99+1 wird gleich 100, indem man 99 mal 1 hochzählt</item>
+
+
+<item>Aus 22+7 wird 29, das ist genau richtig!</item>
+<item>Herzlichen Glückwunsch 78 ist die richtige Antwort :)</item>
+<item>41 Ist absolut richtig :)</item>
+<item>44 ist die richtige Antwort, gute Arbeit</item>
+<item>50 ist genau richtig, clever!</item>
+
+</string-array>
+    <string name="norsk">Norwegisch</string>
+    <string name="tysk">Deutsch</string>
+    <string name="knapp5">5 Fragen</string>
+    <string name="knapp10">10 Fragen</string>
+    <string name="knapp15">15 Fragen</string>
+    <string name="ok">Ausgang</string>
+    <string name="tittel">Willst du das Spiel beenden?</string>
+    <string name="ikkeok">Setzen Sie das Spiel fort</string>
+    <string name="avsluttfullført">Ausgang</string>
+    <string name="tittelspillfullført">Spiel beendet</string>
+    <string name="nyttspill">Neues Spiel</string>
+
+
+<string name="omspillet">In diesem Spiel kann der Benutzer auf Einstellungen zugreifen und die gewünschte Sprache auswählen sowie zwischen 5, 10 oder 15 Fragen wählen. Die Einstellungen werden gespeichert, und der Benutzer kann zurückspringen, um das Spiel zu starten. Um das Spiel zu beginnen, muss der Benutzer auf "Abspielen" drücken und dann die Matheaufgabe beantworten. Wenn der Benutzer die Frage falsch beantwortet, erhält er eine Nachricht wie z.B. "43 + 3 ergibt 46" (richtige Antwort); wenn der Benutzer korrekt antwortet, wird eine andere Nachricht angezeigt, die besagt, dass die Antwort korrekt ist. Um die nächste Frage anzuzeigen (oder die aktuelle Frage zu überspringen), muss der Benutzer auf "Abspielen" drücken. Jede Sitzung, die der Benutzer in den Einstellungen ausgewählt hat (5, 10 oder 15 Fragen), wird als eine Sitzung gezählt. Am Ende einer Sitzung wird der Benutzer (in Form eines Dialogfelds) gefragt, ob er das Spiel fortsetzen oder beenden möchte. Beachten Sie: Es ist wichtig, auf "Löschen" zu drücken, um die eingegebenen Werte zu löschen, bevor Sie eine neue Antwort eingeben können, und auf "=" zu drücken, um zu überprüfen, ob die Antwort korrekt ist.</string>
+
+
+</resources>

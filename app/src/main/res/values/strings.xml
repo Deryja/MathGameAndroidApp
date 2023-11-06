@@ -1,0 +1,163 @@
+<resources>
+    <string name="app_name" translatable="false">MathematicalGame</string>
+
+    <string name="preferanser">Preferanser</string>
+
+    <string name="omspill">Om spillet</string>
+
+
+    <string name="spørsmål">Trykk på play for å begynne</string>
+
+    <string name="startSpill">Play</string>
+
+    <string name="enter">=</string>
+
+    <string name="tall0">0</string>
+    <string name="tall1">1</string>
+    <string name="tall2">2</string>
+    <string name="tall3">3</string>
+    <string name="tall4">4</string>
+    <string name="tall5">5</string>
+    <string name="tall6">6</string>
+    <string name="tall7">7</string>
+    <string name="tall8">8</string>
+    <string name="tall9">9</string>
+    <string name="svaret">Skriv inn ditt svar med knappene</string>
+
+   <string name="StartSelveSpillet">Play</string>
+
+    <string name="delete">Slett</string>
+
+
+
+
+
+    <string-array name="spørsmål">
+
+        <item>5 + 5</item>
+        <item>10 + 10</item>
+        <item>50 + 4</item>
+        <item>33 + 2</item>
+        <item>22 + 1</item>
+
+
+        <item>7 + 7</item>
+        <item>12 + 10</item>
+        <item>1 + 4</item>
+        <item>44 + 2</item>
+        <item>99 + 1</item>
+
+
+        <item>22 + 7</item>
+        <item>1 + 77</item>
+        <item>1 + 40</item>
+        <item>35 + 9</item>
+        <item>49 + 1</item>
+
+    </string-array>
+
+    <integer-array name="svar">
+        <item>10</item>
+        <item>20</item>
+        <item>54</item>
+        <item>35</item>
+        <item>23</item>
+
+        <item>14</item>
+        <item>22</item>
+        <item>5</item>
+        <item>46</item>
+        <item>100</item>
+
+        <item>29</item>
+        <item>78</item>
+        <item>41</item>
+        <item>44</item>
+        <item>50</item>
+
+    </integer-array>
+
+
+    <string-array name="Tilbakemeldinger">
+
+        <item>5 + 5 blir lik 10, dette kan du se ved å telle med fingrene :)</item>
+        <item>10 + 10 blir lik 20  </item>
+        <item>50 + 4 blir lik 54</item>
+        <item>33 + 2 blir 35</item>
+        <item>Når 22 blir addert med 1 vil svaret bli 23</item>
+
+
+        <item>7 + 7 blir det 14 (det dobbelte av 7)</item>
+        <item>12 + 10 blir lik 22</item>
+        <item>1 + 4 = 5, dette kan du se ved å telle med fingrene</item>
+        <item>44 + 2 blir lik 46</item>
+        <item>99 + 1 blir lik 100, ved å telle opp 99 med 1</item>
+
+
+        <item>22 + 7 blir 29</item>
+        <item>1 + 77 blir lik 78</item>
+        <item>1 + 40 blir 41</item>
+        <item>35 + 9 blir 44</item>
+        <item>49 + 1 blir lik 50</item>
+
+    </string-array>
+
+    <string-array name="Tilbakemeldinger2">
+
+        <item>Bra jobba! 5 + 5 blir 10 :)</item>
+        <item>Korrekt svar! 10 + 10 blir lik 20 </item>
+        <item>50 + 4 blir lik 54, når er du snart i mål! :)</item>
+        <item>Korrekt! 33 + 2 blir 35</item>
+        <item>22 + 1 blir 23, veldig bra!</item>
+
+
+        <item>14 er korrekt svar!</item>
+        <item>22 er helt riktig :)</item>
+        <item>5 er helt riktig!</item>
+        <item>46 er korrekt svar, nå er du snart i mål!</item>
+        <item>99 + 1 blir lik 100, ved å telle opp 99 med 1</item>
+
+
+        <item>22 + 7 blir 29, det er helt riktig!</item>
+        <item>Gratulerer 78 er korrekt svar :)</item>
+        <item>41 er helt riktig</item>
+        <item>44 er korrekt svar, bra jobba</item>
+        <item>50 er helt riktig, flink!</item>
+
+    </string-array>
+
+
+
+
+    <string name="norsk">Norsk</string>
+    <string name="tysk">Tysk</string>
+
+    <string name="knapp5">5 spørsmål</string>
+    <string name="knapp10">10 spørsmål</string>
+    <string name="knapp15">15 spørsmål</string>
+
+
+    <string-array name="språk">
+        <item>Norsk</item>
+        <item>Tysk</item>
+    </string-array>
+
+<string-array name="språk_values">
+    <item>no</item>
+    <item>de</item>
+</string-array>
+
+    <string name="ok">Avslutt</string>
+    <string name="tittel">Vil du avlutte spillet?</string>
+    <string name="ikkeok">Fortsett spill</string>
+
+
+
+    <string name="avsluttfullført">Avslutt</string>
+    <string name="tittelspillfullført">Spillet er fullført</string>
+    <string name="nyttspill">Nytt spill</string>
+
+    <string name="omspillet">"I dette spillet kan brukeren gå inn på preferanser og trykke på ønsket språk, samt velge mellom 5, 10 eller 15 spørsmål. Preferansene blir dermed lagret og bruker kan trykke tilbake igjen, for så å starte spill. For å starte spill må bruker trykke på play, og deretter svare på mattespørsmålet. Hvis bruker svarer feil, får bruker opp tekst som sier f.eks. 43 + 3 blir 46 (fasitsvar), dersom bruker svarer korrekt vil brukeren få opp en annen tekst der det står at svaret er korrekt. For å få opp neste spørsmål (eller eventuelt skippe nåværende spørsmål, må bruker trykke på play. Hver 5, 10 eller 15 spørsmål bruker har valgt i preferansen telles som en sesjon. Når sesjonen er over blir bruker spurt (i form av dialogboks) om h*n vil fortsette spill eller avslutte. Husk: Det er viktig å trykke på Slett for å slette verdiene man har skrevet før man kan skrive et nytt svar, samt trykke på '=' for å sjekke om svaret er korrekt"</string>
+
+
+</resources>

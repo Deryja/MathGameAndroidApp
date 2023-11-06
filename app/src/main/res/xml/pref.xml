@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+  <ListPreference
+
+android:key="SpråkPreferanser"
+android:title="Velg språk"
+android:summary="Bytt språk"
+android:entries="@array/språk"
+android:entryValues="@array/språk_values"
+android:defaultValue="no">
+  </ListPreference>
+
+
+</PreferenceScreen>
