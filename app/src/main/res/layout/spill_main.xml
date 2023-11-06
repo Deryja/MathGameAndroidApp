@@ -5,8 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/appbarnespill"
-    >
+    android:background="@drawable/forgame">
 
 
 
@@ -47,6 +46,8 @@
         android:layout_height="44dp"
         android:layout_marginStart="115dp"
         android:layout_marginTop="50dp"
+
+        android:background="@color/grønn"
         android:text="@string/StartSelveSpillet"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/svaret" />
@@ -157,6 +158,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
+
+        android:background="@color/red"
         android:text="@string/delete"
         app:layout_constraintStart_toEndOf="@id/Tall9"
         app:layout_constraintTop_toBottomOf="@id/Tall6" />
@@ -169,7 +172,7 @@
         android:layout_marginTop="17dp"
         android:text="@string/enter"
 
-
+android:background="@color/teal_700"
         app:layout_constraintStart_toEndOf="@id/Delete"
         app:layout_constraintTop_toBottomOf="@+id/Tall7" />
 
